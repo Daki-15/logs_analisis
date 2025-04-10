@@ -2,10 +2,11 @@ import pandas as pd
 from sklearn.ensemble import IsolationForest
 import re
 import matplotlib
-# Use 'Agg' backend for matplotlib, which does not require Tkinter
+
+# Use 'Agg' backend for matplotlib BEFORE importing pyplot
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-matplotlib.use('Agg')
 def parse_logs(path):
     """
     Reads the log file and extracts relevant data into a DataFrame
@@ -59,9 +60,9 @@ def visualize_anomalies(df, anomalies, target_component="CPU"):
     plt.legend()
     
     # Save the plot to a file instead of displaying it
-    plt.savefig(f'anomalies_{target_component}.png')
+    plt.savefig(f'logs/anomalies_{target_component}.png')
 
-if __name__ == "__main__":
+def start_log_generation():
     # Load logs into a DataFrame
     df = parse_logs("./logs/system_logs.log")
     

@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log files
+logs/*.log
+logs/anomalies.csv
+logs/anomalies_*.png
+
+# VS Code workspace files
+.vscode/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints (ako koristiš Jupyter nekad)
+.ipynb_checkpoints/
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.spec
