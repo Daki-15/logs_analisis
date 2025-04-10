@@ -1,23 +1,128 @@
-2025-04-09 11:47:36 INFO: Nepoznata komponenta → APP
-2025-04-09 11:48:48 INFO: Nepoznata komponenta → APP
-2025-04-09 11:49:51 INFO: Nepoznata komponenta → APP
-2025-04-09 11:51:15 INFO: Nepoznata komponenta → APP
-2025-04-09 11:56:23 INFO: Nepoznata komponenta → APP
-2025-04-09 11:56:53 INFO: Nepoznata komponenta → APP
-2025-04-09 11:57:48 INFO: Nepoznata komponenta → APP
-2025-04-09 11:47:29 INFO: DISK OK (30%)
-2025-04-09 11:47:41 AKCIJA: DISK 100% → Snapshot sistema + upozorenje
+2025-04-09 11:47:54 INFO: Unknown component → APP
+2025-04-09 11:48:48 INFO: Unknown component → APP
+2025-04-09 11:49:39 INFO: Unknown component → APP
+2025-04-09 11:50:44 INFO: Unknown component → APP
+2025-04-09 11:51:15 INFO: Unknown component → APP
+2025-04-09 11:52:27 INFO: Unknown component → APP
+2025-04-09 11:59:40 INFO: Unknown component → APP
+2025-04-10 10:58:45 INFO: Unknown component → APP
+2025-04-09 11:47:41 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:54:36 ACTION: DISK 99% → Take system snapshot and alert
 2025-04-09 11:54:44 INFO: DISK OK (32%)
-2025-04-09 11:55:15 AKCIJA: DISK 98% → Snapshot sistema + upozorenje
-2025-04-09 11:56:10 INFO: DISK OK (30%)
-2025-04-09 11:59:13 AKCIJA: DISK 100% → Snapshot sistema + upozorenje
-2025-04-09 11:48:57 INFO: MEMORY OK (30%)
-2025-04-09 11:51:31 INFO: MEMORY OK (30%)
-2025-04-09 11:53:43 INFO: MEMORY OK (30%)
+2025-04-09 11:55:15 ACTION: DISK 98% → Take system snapshot and alert
+2025-04-09 11:57:19 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-09 11:59:13 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:59:55 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-10 11:04:25 INFO: DISK OK (32%)
+2025-04-09 11:46:38 ACTION: MEMORY 98% → Restart application (possible memory leak)
+2025-04-09 11:48:07 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:51:28 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:52:23 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:52:39 ACTION: MEMORY 98% → Restart application (possible memory leak)
 2025-04-09 11:55:32 INFO: MEMORY OK (33%)
-2025-04-09 11:58:21 INFO: MEMORY OK (30%)
-2025-04-09 11:47:17 INFO: CPU u zoni opterećenja (30%)
-2025-04-09 11:48:28 AKCIJA: CPU 100% → Restartuj kritični servis
-2025-04-09 11:50:15 INFO: CPU u zoni opterećenja (33%)
-2025-04-09 11:55:26 AKCIJA: CPU 100% → Restartuj kritični servis
-2025-04-09 11:56:55 AKCIJA: CPU 94% → Pauziraj non-kritične procese
+2025-04-09 11:55:56 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-10 11:06:24 INFO: MEMORY OK (33%)
+2025-04-09 11:47:17 INFO: CPU under heavy load (30%)
+2025-04-09 11:48:28 ACTION: CPU 100% → Restart critical service
+2025-04-09 11:50:15 INFO: CPU under heavy load (33%)
+2025-04-09 11:50:38 INFO: CPU under heavy load (32%)
+2025-04-09 11:55:26 ACTION: CPU 100% → Restart critical service
+2025-04-09 11:58:19 INFO: CPU under heavy load (32%)
+2025-04-10 11:04:42 INFO: CPU under heavy load (30%)
+2025-04-10 11:09:32 INFO: CPU under heavy load (30%)
+2025-04-10 11:16:13 INFO: CPU under heavy load (30%)
+2025-04-09 11:47:54 INFO: Unknown component → APP
+2025-04-09 11:48:48 INFO: Unknown component → APP
+2025-04-09 11:49:39 INFO: Unknown component → APP
+2025-04-09 11:50:44 INFO: Unknown component → APP
+2025-04-09 11:51:15 INFO: Unknown component → APP
+2025-04-09 11:52:27 INFO: Unknown component → APP
+2025-04-09 11:59:40 INFO: Unknown component → APP
+2025-04-10 10:58:45 INFO: Unknown component → APP
+2025-04-09 11:47:41 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:49:16 ACTION: DISK 95% → Delete temp files / rotate logs
+2025-04-09 11:54:36 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-09 11:54:44 INFO: DISK OK (32%)
+2025-04-09 11:55:15 ACTION: DISK 98% → Take system snapshot and alert
+2025-04-09 11:57:19 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-09 11:59:13 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:59:55 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-10 11:04:25 INFO: DISK OK (32%)
+2025-04-09 11:46:38 ACTION: MEMORY 98% → Restart application (possible memory leak)
+2025-04-09 11:48:07 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:51:28 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:52:23 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:52:39 ACTION: MEMORY 98% → Restart application (possible memory leak)
+2025-04-09 11:55:32 INFO: MEMORY OK (33%)
+2025-04-09 11:55:56 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-10 11:06:24 INFO: MEMORY OK (33%)
+2025-04-09 11:47:17 INFO: CPU under heavy load (30%)
+2025-04-09 11:48:28 ACTION: CPU 100% → Restart critical service
+2025-04-09 11:50:15 INFO: CPU under heavy load (33%)
+2025-04-09 11:50:38 INFO: CPU under heavy load (32%)
+2025-04-09 11:55:26 ACTION: CPU 100% → Restart critical service
+2025-04-09 11:58:19 INFO: CPU under heavy load (32%)
+2025-04-10 11:04:42 INFO: CPU under heavy load (30%)
+2025-04-10 11:09:32 INFO: CPU under heavy load (30%)
+2025-04-10 11:16:13 INFO: CPU under heavy load (30%)
+2025-04-09 11:47:36 INFO: Unknown component → APP
+2025-04-09 11:48:48 INFO: Unknown component → APP
+2025-04-09 11:49:51 INFO: Unknown component → APP
+2025-04-09 11:51:15 INFO: Unknown component → APP
+2025-04-09 11:56:23 INFO: Unknown component → APP
+2025-04-09 11:57:48 INFO: Unknown component → APP
+2025-04-10 10:58:45 INFO: Unknown component → APP
+2025-04-10 11:06:19 INFO: Unknown component → APP
+2025-04-10 11:26:13 INFO: Unknown component → APP
+2025-04-09 11:47:41 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:54:36 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-09 11:54:44 INFO: DISK OK (32%)
+2025-04-09 11:55:15 ACTION: DISK 98% → Take system snapshot and alert
+2025-04-09 11:57:19 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-09 11:59:13 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:59:55 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-10 11:04:25 INFO: DISK OK (32%)
+2025-04-10 11:26:20 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:46:38 ACTION: MEMORY 98% → Restart application (possible memory leak)
+2025-04-09 11:48:07 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:51:28 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:52:23 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:52:39 ACTION: MEMORY 98% → Restart application (possible memory leak)
+2025-04-09 11:55:32 INFO: MEMORY OK (33%)
+2025-04-09 11:55:56 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-10 11:06:24 INFO: MEMORY OK (33%)
+2025-04-09 11:47:17 INFO: CPU under heavy load (30%)
+2025-04-09 11:48:28 ACTION: CPU 100% → Restart critical service
+2025-04-09 11:50:15 INFO: CPU under heavy load (33%)
+2025-04-09 11:55:26 ACTION: CPU 100% → Restart critical service
+2025-04-10 11:04:42 INFO: CPU under heavy load (30%)
+2025-04-10 11:09:32 INFO: CPU under heavy load (30%)
+2025-04-10 11:16:13 INFO: CPU under heavy load (30%)
+2025-04-09 11:47:36 INFO: Unknown component → APP
+2025-04-09 11:49:51 INFO: Unknown component → APP
+2025-04-09 11:51:15 INFO: Unknown component → APP
+2025-04-09 11:56:23 INFO: Unknown component → APP
+2025-04-09 11:57:48 INFO: Unknown component → APP
+2025-04-10 11:06:19 INFO: Unknown component → APP
+2025-04-09 11:47:41 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:54:36 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-09 11:55:15 ACTION: DISK 98% → Take system snapshot and alert
+2025-04-09 11:57:19 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-09 11:59:13 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-09 11:59:55 ACTION: DISK 99% → Take system snapshot and alert
+2025-04-10 11:26:20 ACTION: DISK 100% → Take system snapshot and alert
+2025-04-10 11:33:17 ACTION: DISK 98% → Take system snapshot and alert
+2025-04-09 11:46:38 ACTION: MEMORY 98% → Restart application (possible memory leak)
+2025-04-09 11:48:07 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:51:28 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:52:23 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:52:39 ACTION: MEMORY 98% → Restart application (possible memory leak)
+2025-04-09 11:55:56 ACTION: MEMORY 99% → Restart application (possible memory leak)
+2025-04-09 11:47:17 INFO: CPU under heavy load (30%)
+2025-04-09 11:48:28 ACTION: CPU 100% → Restart critical service
+2025-04-09 11:50:15 INFO: CPU under heavy load (33%)
+2025-04-09 11:55:26 ACTION: CPU 100% → Restart critical service
+2025-04-10 11:04:42 INFO: CPU under heavy load (30%)
+2025-04-10 11:09:32 INFO: CPU under heavy load (30%)
+2025-04-10 11:16:13 INFO: CPU under heavy load (30%)
+2025-04-10 11:32:19 ACTION: CPU 100% → Restart critical service

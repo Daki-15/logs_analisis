@@ -44,13 +44,10 @@ def take_action(anomalies):
             # Write the action to the log file
             file.write(action)
 
-def start_correctve_action():
-    # Load detected anomalies from the CSV file
-    anomalies = pd.read_csv("logs/anomalies.csv")
-
-    if not anomalies.empty:
+def start_correctve_action(anomalies_df):
+    if not anomalies_df.empty:
         # Perform corrective actions if anomalies exist
-        take_action(anomalies)
+        take_action(anomalies_df)
     else:
         # Indicate that no anomalies are available for action
         print("No anomalies detected for corrective action.")
