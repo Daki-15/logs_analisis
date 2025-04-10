@@ -44,7 +44,7 @@ def take_action(anomalies):
             # Write the action to the log file
             file.write(action)
 
-if __name__ == "__main__":
+def start_correctve_action():
     # Load detected anomalies from the CSV file
     anomalies = pd.read_csv("logs/anomalies.csv")
 

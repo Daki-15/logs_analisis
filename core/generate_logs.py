@@ -38,6 +38,5 @@ def generate_log():
         # Wait for 1 second before generating the next log entry
         time.sleep(1)
 
-# Main entry point of the program
-if __name__ == "__main__":
-    generate_log()  # Start generating log entries
+def start_log_generation():
+    generate_log()

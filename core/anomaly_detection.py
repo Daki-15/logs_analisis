@@ -48,7 +48,7 @@ def detect_anomalies_all_components(df):
     else:
         return pd.DataFrame()
 
-if __name__ == "__main__":
+def start_anomaly_detection():
     # Parse the log file into a DataFrame
     df = parse_logs("./logs/system_logs.log")
 

@@ -61,7 +61,7 @@ def visualize_anomalies(df, anomalies, target_component="CPU"):
     # Save the plot to a file instead of displaying it
     plt.savefig(f'anomalies_{target_component}.png')
 
-if __name__ == "__main__":
+def start_visualize():
     # Load logs into a DataFrame
     df = parse_logs("./logs/system_logs.log")
     
